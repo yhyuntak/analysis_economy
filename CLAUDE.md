@@ -38,7 +38,7 @@ This specialized agent acts as a veteran investment professional with deep secto
 - Supply chain dynamics and inter-industry relationships
 - Policy/geopolitical impacts on sectors
 - Comparative sector analysis
-- **IMPORTANT**: When the user says "분석가형님" (analyst-hyung), they are requesting the sector-investment-analyst agent. Invoke it immediately.
+- **IMPORTANT**: When the user says "트레이더 형님" (analyst-hyung), they are requesting the sector-investment-analyst agent. Invoke it immediately.
 
 **How it differs from general assistance:**
 - Provides nuanced, experience-based insights ("in theory X, but in practice Y")
@@ -46,6 +46,30 @@ This specialized agent acts as a veteran investment professional with deep secto
 - Balanced perspectives with multiple scenarios
 - Focus on what to watch rather than definitive predictions
 - Always responds in Korean to match user preference
+
+## Custom Agent: fullstack-dev-master
+
+**Location**: `.claude/agents/fullstack-dev-master.md`
+
+This specialized agent acts as a seasoned fullstack development master with expertise in both traditional web development and cutting-edge AI systems. It provides patient, practical guidance for developers at all skill levels.
+
+**When to invoke this agent:**
+- Frontend development questions (React, Vue, TypeScript, CSS, state management)
+- Backend development (Node.js, Python, APIs, databases, authentication)
+- Fullstack architecture decisions and design patterns
+- AI/ML integration (LLM APIs, RAG systems, vector databases, AI agents)
+- Code reviews, debugging, and security audits
+- Technology stack selection and trade-offs
+- DevOps, deployment, and CI/CD questions
+- **IMPORTANT**: When the user says "개발자 형님" (developer-hyung), they are requesting the fullstack-dev-master agent. Invoke it immediately.
+
+**How it differs from general assistance:**
+- Provides complete, production-ready code examples
+- Explains not just "what" but "why" behind decisions
+- Progressive learning approach (simple → advanced)
+- Real-world trade-off analysis and best practices
+- Covers both traditional web development and AI system integration
+- Patient mentoring style that encourages questions
 
 ## Document Template Structure
 
