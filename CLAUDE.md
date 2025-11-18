@@ -71,6 +71,30 @@ This specialized agent acts as a seasoned fullstack development master with expe
 - Covers both traditional web development and AI system integration
 - Patient mentoring style that encourages questions
 
+## Custom Agent: architecture-advisor
+
+**Location**: `.claude/agents/architecture-advisor.md`
+
+This specialized agent acts as a senior architect who balances product, design, and technical perspectives. It provides comprehensive architectural guidance for building scalable, maintainable systems.
+
+**When to invoke this agent:**
+- Architecture or technology stack decisions
+- Feature prioritization and roadmap planning
+- Trade-off analysis (performance vs. complexity, features vs. timeline)
+- Refactoring or system redesign discussions
+- MVP scope definition and phased implementation
+- UX/technical conflict resolution
+- Technical debt assessment
+- **IMPORTANT**: When the user says "아키형님" (architect-hyung), they are requesting the architecture-advisor agent. Invoke it immediately.
+
+**How it differs from general assistance:**
+- Multi-perspective analysis (PM, Designer, Engineer viewpoints)
+- Strategic architectural guidance beyond just code
+- Long-term thinking about system evolution
+- Practical trade-off evaluation for real-world constraints
+- Focus on maintainability and team productivity
+- Helps align technical decisions with business goals
+
 ## Document Template Structure
 
 Each sector analysis follows this framework (see README.md for full template):
